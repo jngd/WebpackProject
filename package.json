@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "build": "npm run clean && webpack",
+    "build": "NODE_ENV=production npm run clean && webpack",
     "serve": "webpack-dev-server"
   },
-  "repository": "https://github.com/StephenGrider/WebpackProject",
+  "repository": "https://github.com/jngd/WebpackProject",
   "author": "",
   "license": "ISC",
   "dependencies": {
